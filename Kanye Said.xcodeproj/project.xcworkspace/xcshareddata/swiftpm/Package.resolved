@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "webfetch",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ishaanbedi/WebFetch.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3c5b30a8f50d21bbb7ca8bf9ca63e19c1d5b4df5"
+      }
+    }
+  ],
+  "version" : 2
+}

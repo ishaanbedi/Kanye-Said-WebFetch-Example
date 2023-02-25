@@ -11,6 +11,7 @@
 		2E58353329A9DF8D00B50AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58353229A9DF8D00B50AAB /* ContentView.swift */; };
 		2E58353529A9DF8E00B50AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E58353429A9DF8E00B50AAB /* Assets.xcassets */; };
 		2E58353829A9DF8E00B50AAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E58353729A9DF8E00B50AAB /* Preview Assets.xcassets */; };
+		2E58354029A9DFB600B50AAB /* WebFetch in Frameworks */ = {isa = PBXBuildFile; productRef = 2E58353F29A9DFB600B50AAB /* WebFetch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E58354029A9DFB600B50AAB /* WebFetch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "Kanye Said";
+			packageProductDependencies = (
+				2E58353F29A9DFB600B50AAB /* WebFetch */,
+			);
 			productName = "Kanye Said";
 			productReference = 2E58352D29A9DF8D00B50AAB /* Kanye Said.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 2E58352429A9DF8D00B50AAB;
+			packageReferences = (
+				2E58353E29A9DFB600B50AAB /* XCRemoteSwiftPackageReference "WebFetch" */,
+			);
 			productRefGroup = 2E58352E29A9DF8D00B50AAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -270,11 +278,13 @@
 				DEVELOPMENT_TEAM = F7JY38PGBF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +309,13 @@
 				DEVELOPMENT_TEAM = F7JY38PGBF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E58353E29A9DFB600B50AAB /* XCRemoteSwiftPackageReference "WebFetch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ishaanbedi/WebFetch.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E58353F29A9DFB600B50AAB /* WebFetch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E58353E29A9DFB600B50AAB /* XCRemoteSwiftPackageReference "WebFetch" */;
+			productName = WebFetch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E58352529A9DF8D00B50AAB /* Project object */;
 }
