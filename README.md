@@ -22,6 +22,12 @@ The app depends on [`WebFetch`](https://github.com/ishaanbedi/WebFetch)
 
 WebFetch package is already included in the project, so you don't need to install it separately. Though you may refer to the [`WebFetch`](https://github.com/ishaanbedi/WebFetch) repository for more information if you want to use it in other projects.
 
+## Video Demo
+
+
+
+https://user-images.githubusercontent.com/39641326/221343775-ee8f7358-c392-4f5a-916c-03c918904018.mov
+
 
 ## References
 
